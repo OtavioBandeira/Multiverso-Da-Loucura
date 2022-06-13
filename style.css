@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.header{
+    width: 100%;
+    min-height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px;
+}
+
+.imgHeader{
+    width: 200px;
+    object-fit: cover;
+}
+
+.btnHeader{
+    display: flex;
+    gap: 15px;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.btn:hover{
+    border-bottom: 2px solid darkred;
+    transition: 0.5s;
+    color: darkred;
+}
+
+.backgroundGif{
+    background-image: url(./src/imagens/background2.gif);
+    width: 100%;
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.opac{
+    width: 100%;
+    min-height: 90vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.backgroundGifContent{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.nameContentTitle{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgb(5, 5, 5);
+    padding-top: 20px;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "mainContent mainContent mainContent"
+    "bottomContent bottomContent bottomContent";
+    gap: 15px;
+    padding: 20px;
+    flex: 1 0 auto;
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    grid-area: mainContent;
+}
+
+.mainCard{
+    border: 2px solid darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+}
+
+.mainCard:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    background-color: black;
+    border: 2px solid transparent;
+}
+
+.imgMainCard{
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.nameMainContent{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.Description{
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    grid-area: bottomContent;
+}
+
+.bottomCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.imgBottomCard{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px;
+    color: white;
+}
+
+.ancoraFooter{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 477px){
+    .header{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 425px){
+    .mainCard:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@media(max-width: 385px){
+    .footer{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 370px){
+    .mainCard:hover{
+        -webkit-transform: none;
+        transform: none;
+        background-color: none;
+        border: none none none;
+    }
+}
+
+@media(max-width: 298px){
+    .Description{
+        font-size: 11px;
+    }
+}

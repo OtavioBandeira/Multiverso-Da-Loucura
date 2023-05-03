@@ -3,43 +3,57 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
+    text-decoration: none;
+}
+
+:root{
+    --color-red-dark: #8b0000;
+    --color-black: #000000;
+    --color-white: #ffffff;
 }
 
 .header{
     width: 100%;
     min-height: 40px;
-    background-color: #000;
+    background-color: var(--color-black);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
-    gap: 8px 15px;
+    gap: 8px 15px; 
 }
 
 .imgHeader{
     width: 200px;
     object-fit: cover;
+    position: relative;
+    right: 15rem;
 }
 
 .btnHeader{
     display: flex;
     gap: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 400px;
 }
 
 .btn{
     background-color: transparent;
-    color: white;
+    color: var(--color-white);
     border: 2px solid transparent;
     padding: 10px;
     transition: 0.5s;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .btn:hover{
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid var(--color-red-dark);
     transition: 0.5s;
-    color: darkred;
+    color: var(--color-red-dark);
 }
 
 .backgroundGif{
@@ -60,124 +74,31 @@
 }
 
 .backgroundGifContent{
-    color: white;
+    color: var(--color-white);
     padding-top: 200px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-.nameContentTitle{
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    background-color: rgb(5, 5, 5);
-    padding-top: 20px;
-}
 
-.section{
-    width: 100%;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "mainContent mainContent mainContent"
-    "bottomContent bottomContent bottomContent";
-    gap: 15px;
-    padding: 20px;
-    flex: 1 0 auto;
-    background-color: rgb(5, 5, 5);
-    color: white;
-}
-
-.mainContent{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    grid-area: mainContent;
-}
-
-.mainCard{
-    border: 2px solid darkred;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 280px;
-    height: 380px;
-}
-
-.mainCard:hover{
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-    background-color: black;
-    border: 2px solid transparent;
-}
-
-.imgMainCard{
-    width: 100%;
-    height: 180px;
-    padding: 10px;
-    object-fit: cover;
-}
-
-.nameMainContent{
-    color: darkred;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-}
-
-.Description{
-    font-size: 12px;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bottomContent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    grid-area: bottomContent;
-}
-
-.bottomCard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    width: 230px;
-    height: 230px;
-    text-align: center;
-}
-
-.imgBottomCard{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 
 .footer{
     width: 100%;
     min-height: 40px;
-    background-color: #000;
+    background-color: var(--color-black);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
     gap: 8px 15px;
-    color: white;
+    color: var(--color-white);
 }
 
 .ancoraFooter{
     text-decoration: none;
-    color: white;
+    color: var(--color-white);
 }
 
 @media(max-width: 477px){
@@ -186,30 +107,8 @@
     }
 }
 
-@media(max-width: 425px){
-    .mainCard:hover{
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-}
-
 @media(max-width: 385px){
     .footer{
         flex-direction: column;
-    }
-}
-
-@media(max-width: 370px){
-    .mainCard:hover{
-        -webkit-transform: none;
-        transform: none;
-        background-color: none;
-        border: none none none;
-    }
-}
-
-@media(max-width: 298px){
-    .Description{
-        font-size: 11px;
     }
 }

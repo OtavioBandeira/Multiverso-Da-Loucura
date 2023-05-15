@@ -10,6 +10,13 @@
     --color-red-dark: #8b0000;
     --color-black: #000000;
     --color-white: #ffffff;
+    --color-black-light: #0e0d0d;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -20,12 +27,13 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 8px;
     gap: 8px 15px; 
+    
 }
 
 .imgHeader{
-    width: 200px;
+    width: 170px;
     object-fit: cover;
 }
 
@@ -55,17 +63,31 @@
 .contentMain{
     min-height: 100vh;
     width: 100%;
-    background-color: var(--color-red-dark);
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    background-color: var(--color-black-light);
 }
 
-.construcao{
-    background-image: url(../src/imagens/construcao.png);
-    width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover; 
+.contentSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+.paragraphLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraphRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer{

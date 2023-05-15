@@ -10,6 +10,14 @@
     --color-red-dark: #8b0000;
     --color-black: #000000;
     --color-white: #ffffff;
+    --color-black-light: #0e0d0d;
+
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -20,12 +28,12 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 8px;
     gap: 8px 15px; 
 }
 
 .imgHeader{
-    width: 200px;
+    width: 170px;
     object-fit: cover;
 }
 

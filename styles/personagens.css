@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+:root{
+    --color-red-dark: #8b0000;
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+.header{
+    width: 100%;
+    min-height: 40px;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px; 
+}
+
+.imgHeader{
+    width: 200px;
+    object-fit: cover;
+}
+
+.btnHeader{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border-bottom: 2px solid var(--color-red-dark);
+    transition: 0.5s;
+    color: var(--color-red-dark);
+}
+
+.contentMain{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--color-red-dark);
+}
+
+.construcao{
+    background-image: url(../src/imagens/construcao.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; 
+}
+
+.footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px;
+    color: var(--color-white);
+}
+
+.ancoraFooter{
+    text-decoration: none;
+    color: var(--color-white);
+}

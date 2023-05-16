@@ -63,17 +63,49 @@
 .contentMain{
     min-height: 100vh;
     width: 100%;
-    background-color: var(--color-red-dark);
+    background-color: var(--color-black-light);
+    color: var(--color-white);
 }
 
-.construcao{
-    background-image: url(../src/imagens/construcao.png);
-    width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover; 
+.contentSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+.contentMain .contentSection img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraphLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraphRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 20px;
 }
 
 .footer{

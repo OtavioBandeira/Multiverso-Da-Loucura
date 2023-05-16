@@ -76,6 +76,26 @@
     flex: 1 0 auto;
 }
 
+.contentMain .contentSection img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .paragraphLeft{
     display: flex;
     align-items: center;
@@ -88,6 +108,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-right: 20px;
 }
 
 .footer{

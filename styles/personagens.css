@@ -21,7 +21,7 @@
 
 .header{
     width: 100%;
-    min-height: 40px;
+    min-height: 10vh;
     background-color: var(--color-black);
     display: flex;
     justify-content: space-between;
@@ -58,6 +58,17 @@
     border-bottom: 2px solid var(--color-red-dark);
     transition: 0.5s;
     color: var(--color-red-dark);
+}
+
+.centerContent{
+    min-height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.centerContent h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contentMain{

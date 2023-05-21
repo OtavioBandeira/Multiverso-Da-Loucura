@@ -77,7 +77,7 @@
     color: var(--color-white);
 }
 
-.contentSection{
+.contentItem{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
@@ -134,4 +134,108 @@
 .ancoraFooter{
     text-decoration: none;
     color: var(--color-white);
+}
+
+@media(max-width: 1024px){
+    .paragraphAmericaChavez{
+        font-size: .8rem;
+    }
+
+    .paragraphWong{
+        font-size: .8rem;
+    }
+
+    .paragraphCarlesXavier{
+        font-size: .8rem;
+    }
+
+    .paragraphClea{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px){
+    main .contentSection .contentItem p{
+        font-size: .7rem;
+    }
+
+    .paragraphAmericaChavez{
+        padding: 40px;
+    }
+
+    .paragraphWong{
+        padding: 40px;
+    }
+
+    .paragraphCarlesXavier{
+        padding: 40px;
+    }
+
+    .paragraphClea{
+        padding: 40px;
+    }
+}
+
+@media(max-width: 606px){
+    .header{
+        justify-content: center;
+    }
+
+    .btnHeader{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 425px){
+    main .contentSection .contentItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contentMain .contentSection img{
+        width: 100%;
+    }
+
+    .paragraphRight{
+        padding: 0;
+    }
+
+    .elizabethOlsen{
+        order: -1;
+    }
+
+    .wong{
+        order: -1;
+    }
+
+    .capitaCarter{
+        order: -1;
+    }
+
+    .srFantastico{
+        order: -1;
+    }
+
+    .baraoMordo{
+        order: -1;
+    }
+
+    .clea{
+        order: -1;
+    }
+}
+
+@media(max-width: 386px){
+    .footer{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 280px){
+    .header{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }

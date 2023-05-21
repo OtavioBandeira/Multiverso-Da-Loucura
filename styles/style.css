@@ -97,3 +97,19 @@
     gap: 8px 15px;
     color: var(--color-white);
 }
+
+@media(max-width: 606px){
+    .header{
+        justify-content: center;
+    }
+
+    .btnHeader{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 280px){
+    .header{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -13,44 +12,30 @@
     --color-black-light: #0e0d0d;
 }
 
-.container{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 .header{
     width: 100%;
-    min-height: 10vh;
+    height: 14vh;
     background-color: var(--color-black);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 8px;
-    gap: 8px 15px; 
-    
+    gap: 0.5rem 0.938; 
+    padding: 0rem 1.25rem;
 }
 
 .imgHeader{
-    width: 170px;
+    width: 10.625rem;
     object-fit: cover;
-}
-
-.btnHeader{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
 }
 
 .btn{
     background-color: transparent;
     color: var(--color-white);
     border: 2px solid transparent;
-    padding: 10px;
+    padding: 0.625rem;
     transition: 0.5s;
-    font-size: 18px;
+    font-size: 1.125rem;
     cursor: pointer;
 }
 
@@ -60,186 +45,37 @@
     color: var(--color-red-dark);
 }
 
-.centerContent{
-    min-height: 10vh;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.centerContent h1{
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .contentMain{
     min-height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     color: var(--color-white);
     background-color: var(--color-black-light);
 }
 
-.contentItem{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    flex: 1 0 auto;
-}
-
-.contentMain .contentSection img{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imgLeft{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imgRight{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.paragraphLeft{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.centerContent{
+    min-height: 10vh;
     text-align: center;
+    padding-top: 1.25rem;
 }
 
-.paragraphRight{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-right: 20px;
+.centerContent h1{
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer{
     width: 100%;
-    min-height: 40px;
+    min-height: 2.5rem;
     background-color: var(--color-black);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 15px;
-    gap: 8px 15px;
+    padding: 0.938rem;
+    gap: 0.5rem 0.938rem;
     color: var(--color-white);
 }
 
 .ancoraFooter{
-    text-decoration: none;
     color: var(--color-white);
-}
-
-@media(max-width: 1024px){
-    .paragraphAmericaChavez{
-        font-size: .8rem;
-    }
-
-    .paragraphWong{
-        font-size: .8rem;
-    }
-
-    .paragraphCarlesXavier{
-        font-size: .8rem;
-    }
-
-    .paragraphClea{
-        font-size: .8rem;
-    }
-}
-
-@media (max-width: 768px){
-    main .contentSection .contentItem p{
-        font-size: .7rem;
-    }
-
-    .paragraphAmericaChavez{
-        padding: 40px;
-    }
-
-    .paragraphWong{
-        padding: 40px;
-    }
-
-    .paragraphCarlesXavier{
-        padding: 40px;
-    }
-
-    .paragraphClea{
-        padding: 40px;
-    }
-}
-
-@media(max-width: 606px){
-    .header{
-        justify-content: center;
-    }
-
-    .btnHeader{
-        flex-wrap: wrap;
-    }
-}
-
-@media(max-width: 425px){
-    main .contentSection .contentItem{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .contentMain .contentSection img{
-        width: 100%;
-    }
-
-    .paragraphRight{
-        padding: 0;
-    }
-
-    .drEstranho{
-        order: -1;
-    }
-
-    .wong{
-        order: -1;
-    }
-
-    .capitaMarvel{
-        order: -1;
-    }
-
-    .baraoMordo{
-        order: -1;
-    }
-
-    .clea{
-        order: -1;
-    }
-
-    .captaCarter{
-        order: -1;
-    }
-}
-
-@media(max-width: 386px){
-    .footer{
-        justify-content: center;
-    }
-}
-
-@media(max-width: 280px){
-    .header{
-        font-family: Arial, Helvetica, sans-serif;
-    }
 }

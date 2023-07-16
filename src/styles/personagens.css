@@ -105,6 +105,10 @@
     align-items: center;
 }
 
+.selection{
+    box-shadow: -10px -10px 30px var(--color-red-dark);
+}
+
 .selectedCharacter{
     max-width: 250px;
     width: 100%;

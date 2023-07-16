@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 :root{
@@ -10,6 +11,11 @@
     --color-black: #000000;
     --color-white: #ffffff;
     --color-black-light: #0e0d0d;
+}
+
+.theme{
+    background-color: var(--color-black-light);
+    color: var(--color-white);
 }
 
 .header{
@@ -46,7 +52,7 @@
 }
 
 .contentMain{
-    min-height: 100vh;
+    min-height: 17vh;
     width: 100%;
     color: var(--color-white);
     background-color: var(--color-black-light);
@@ -63,19 +69,66 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer{
+.contentPerson{
+    display: grid;
+    grid-template-areas: 
+    'listCharacter characterSelect';
     width: 100%;
-    min-height: 2.5rem;
-    background-color: var(--color-black);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0.938rem;
-    gap: 0.5rem 0.938rem;
-    color: var(--color-white);
+    padding: 40px;
 }
 
-.ancoraFooter{
+.listCharacter{
+    grid-area: listCharacter;
+}
+
+.characters{
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'character character character';
+    gap: 5px;
+}
+
+.character{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.characterSelect{
+    grid-area: characterSelect;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedCharacter{
+    max-width: 250px;
+    width: 100%;
+}
+
+.selectedCharacterName{
+    font-size: 2rem;
+    padding-top: 25px;
+}
+
+.descriptionCharacter{
+    padding-top: 20px;
+    max-width: 90%;
+}
+
+.footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px;
     color: var(--color-white);
 }

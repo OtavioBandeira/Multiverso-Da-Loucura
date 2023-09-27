@@ -1,0 +1,35 @@
+.contentAtores{
+  background-color: var(--color-black-light);
+  color: var(--color-white);
+  border-top: 2px solid var(--color-white);
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+}
+
+.sectionAtores{
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  width: 30%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sectionAtores img {
+  width: 100%;
+}
+
+.sectionAtores span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.descriptionAtores{
+  padding: 1.5rem;
+  width: 100%;
+}

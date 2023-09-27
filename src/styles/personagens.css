@@ -103,8 +103,9 @@
 }
 
 .selectedCharacter{
-    max-width: 250px;
+    max-width: 190px;
     width: 100%;
+    object-fit: cover;
 }
 
 .selectedCharacterName{

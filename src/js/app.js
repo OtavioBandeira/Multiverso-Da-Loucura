@@ -1,3 +1,4 @@
+import { actoresDescription } from "./actoresDescription.js"
 import { imgToCharacterSelect, nameToCharacterSelect, selectToCharacter } from "./charactersSelected.js"
 
 const characters = document.querySelectorAll('.character')
@@ -10,3 +11,4 @@ characters.forEach((character)=> {
   })
 })
 
+console.table(actoresDescription)

@@ -1,14 +1,13 @@
-import { actoresDescription } from "./actoresDescription.js"
-import { imgToCharacterSelect, nameToCharacterSelect, selectToCharacter } from "./charactersSelected.js"
+import { imgToCharacterSelect, nameToCharacterSelect, selectToCharacter, actorToSelect } from "./charactersSelected.js"
 
 const characters = document.querySelectorAll('.character')
 
 characters.forEach((character)=> {
   character.addEventListener('click', ()=> {
-  selectToCharacter(character)
-  imgToCharacterSelect(character)
-  nameToCharacterSelect(character)
+    selectToCharacter(character)
+    imgToCharacterSelect(character)
+    nameToCharacterSelect(character)
+    actorToSelect(character)
   })
 })
 
-console.table(actoresDescription)

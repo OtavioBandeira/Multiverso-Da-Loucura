@@ -8,18 +8,18 @@ export class Actores {
   }
 }
 
-const elizabethOlsenImg = `/src/assets/imagensAtores/Elizabeth Olsen.png`
-const xochitlGomezImg = `/src/assets/imagensAtores/Xochitl Gomez.png`
-const benedictCumberbatchImg = `/src/assets/imagensAtores/Benedict Cumberbatch.png`
-const benedictWongImg = `/src/assets/imagensAtores/Benedict Wong.png`
-const charlizeTheronImg = `/src/assets/imagensAtores/Charlize Theron.png`
-const hayleyAtwellImg = `/src/assets/imagensAtores/Hayley Atwell.png`
-const lashanaLynchImg = `/src/assets/imagensAtores/Lashana Lynch.png`
-const patrickStewartImg = `/src/assets/imagensAtores/Patrick Stewart.png`
-const rachelMcAdamsImg = `/src/assets/imagensAtores/Rachel McAdams.png`
-const johnKrasinskiImg = `/src/assets/imagensAtores/John Krasinski.png`
-const ansonMountImg = `/src/assets/imagensAtores/Anson Mount.png`
-const chiwetelEjioforImg = `/src/assets/imagensAtores/Chiwetel Ejiofor.png`
+const elizabethOlsenImg = `../../assets/imagensAtores/Elizabeth Olsen.png`
+const xochitlGomezImg = `../../assets/imagensAtores/Xochitl Gomez.png`
+const benedictCumberbatchImg = `../../assets/imagensAtores/Benedict Cumberbatch.png`
+const benedictWongImg = `../../assets/imagensAtores/Benedict Wong.png`
+const charlizeTheronImg = `../../assets/imagensAtores/Charlize Theron.png`
+const hayleyAtwellImg = `../../assets/imagensAtores/Hayley Atwell.png`
+const lashanaLynchImg = `../../assets/imagensAtores/Lashana Lynch.png`
+const patrickStewartImg = `../../assets/imagensAtores/Patrick Stewart.png`
+const rachelMcAdamsImg = `../../assets/imagensAtores/Rachel McAdams.png`
+const johnKrasinskiImg = `../../assets/imagensAtores/John Krasinski.png`
+const ansonMountImg = `../../assets/imagensAtores/Anson Mount.png`
+const chiwetelEjioforImg = `../../assets/imagensAtores/Chiwetel Ejiofor.png`
 
 export const xochitlGomez = new Actores(xochitlGomezImg, "Xochitl Gomez", xochitlGomezDescription)
 export const benedictCumberbatch = new Actores(benedictCumberbatchImg, "Benedict Cumberbatch", benedictCumberbatchDescription)

@@ -18,6 +18,12 @@ export function selectToCharacter(character) {
   character.classList.add('selection')
 }
 
+export function descriptionToCharacterSelect(character){
+  const characterDescription = document.querySelector('.descriptionCharacter')
+  const charDescription = character.dataset.description
+  characterDescription.innerText = charDescription
+}
+
 export function actorToSelect(character) {
   const actorImg = document.querySelector('.imgActor')
   const nameActor = document.querySelector('.nameAtores')

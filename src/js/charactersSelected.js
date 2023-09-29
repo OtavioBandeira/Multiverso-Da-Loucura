@@ -9,7 +9,7 @@ export function nameToCharacterSelect(character) {
 export function imgToCharacterSelect(character) {
   const characterSelected = document.querySelector('.selectedCharacter')
   const characterId = character.getAttribute('id')
-  characterSelected.src = `/src/assets/imagensPersonagens/${characterId}.png`
+  characterSelected.src = `../../assets/imagensPersonagens/${characterId}.png`
 }
 
 export function selectToCharacter(character) {

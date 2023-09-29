@@ -58,7 +58,7 @@
 }
 
 .sectionBackground{
-    background-image: url(/src/assets/dr\ estranho\ no\ multiverso.gif);
+    background-image: url(../assets/dr\ estranho\ no\ multiverso.gif);
     width: 100%;
     height: 90vh;
     background-position: center;

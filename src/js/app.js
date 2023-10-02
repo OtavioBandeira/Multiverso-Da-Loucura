@@ -1,6 +1,7 @@
 import { Actores } from "./Actores.js"
 import { imgToCharacterSelect, nameToCharacterSelect, selectToCharacter, actorToSelect, descriptionToCharacterSelect } from "./charactersSelected.js"
 import { descriptionActores } from "./descriptionActores.js"
+import { switchTheme } from "./theme.js"
 
 const characters = document.querySelectorAll('.character')
 
@@ -70,3 +71,7 @@ characters.forEach((character)=> {
   })
 })
 
+
+document.getElementById('switchTheme').addEventListener('click', () => {
+  switchTheme()
+})

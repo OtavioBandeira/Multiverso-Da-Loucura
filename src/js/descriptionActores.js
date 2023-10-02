@@ -1,4 +1,4 @@
-const descriptionActores = [
+export const descriptionActores = [
   {
     benedictCumberbatchDescription: `Benedict Cumberbatch é um renomado ator britânico conhecido por sua extraordinária versatilidade e habilidade de atuação excepcional. Ele nasceu em 19 de julho de 1976, em Londres, Inglaterra, e desde então, construiu uma carreira brilhante na indústria do entretenimento. Cumberbatch é frequentemente elogiado por sua presença magnética no palco e na tela, bem como por sua capacidade de se transformar em uma variedade de papéis desafiadores.
 
@@ -115,32 +115,3 @@ const descriptionActores = [
   },
 ]
 
-export const descriptions = descriptionActores.map(descriptionActores => {
-  return {
-    benedictCumberbatchDescription: descriptionActores.benedictCumberbatchDescription,
-    elizabethOlsenDescription: descriptionActores.elizabethOlsenDescription,
-    benedictWongDescription: descriptionActores.benedictWongDescription,
-    xochitlGomezDescription: descriptionActores.xochitlGomezDescription,
-    ansonMountDescription: descriptionActores.ansonMountDescription,
-    rachelMcAdamsDescription: descriptionActores.rachelMcAdamsDescription,
-    patrickStewartDescription: descriptionActores.patrickStewartDescription,
-    lashanaLynchDescription: descriptionActores.lashanaLynchDescription,
-    johnKrasinskiDescription: descriptionActores.johnKrasinskiDescription,
-    hayleyAtwellDescription: descriptionActores.hayleyAtwellDescription,
-    chiwetelEjioforDescription: descriptionActores.chiwetelEjioforDescription,
-    charlizeTheronDescription: descriptionActores.charlizeTheronDescription,
-  }
-})
-
-export const benedictCumberbatchDescription = descriptions[0].benedictCumberbatchDescription
-export const elizabethOlsenDescription = descriptions[1].elizabethOlsenDescription
-export const benedictWongDescription = descriptions[2].benedictWongDescription
-export const xochitlGomezDescription = descriptions[3].xochitlGomezDescription
-export const ansonMountDescription = descriptions[4].ansonMountDescription
-export const rachelMcAdamsDescription = descriptions[5].rachelMcAdamsDescription
-export const patrickStewartDescription = descriptions[6].patrickStewartDescription
-export const lashanaLynchDescription = descriptions[7].lashanaLynchDescription
-export const johnKrasinskiDescription = descriptions[8].johnKrasinskiDescription
-export const hayleyAtwellDescription = descriptions[9].hayleyAtwellDescription
-export const chiwetelEjioforDescription = descriptions[10].chiwetelEjioforDescription
-export const charlizeTheronDescription = descriptions[11].charlizeTheronDescription

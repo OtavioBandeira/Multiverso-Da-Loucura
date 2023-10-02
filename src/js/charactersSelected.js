@@ -1,4 +1,4 @@
-import { ansonMount, benedictCumberbatch, benedictWong, charlizeTheron, chiwetelEjiofor, elizabethOlsen, hayleyAtwell, johnKrasinski, lashanaLynch, patrickStewart, rachelMcAdams, xochitlGomez } from "./Actores.js"
+import { ansonMount, benedictCumberbatch, benedictWong, charlizeTheron, chiwetelEjiofor, elizabethOlsen, hayleyAtwell, johnKrasinski, lashanaLynch, patrickStewart, rachelMcAdams, xochitlGomez } from "./app.js"
 
 export function nameToCharacterSelect(character) {
   const characterName = document.getElementById('selectedName')

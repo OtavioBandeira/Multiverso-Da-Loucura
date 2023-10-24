@@ -27,6 +27,6 @@ https://otaviobandeira.github.io/Multiverso-Da-Loucura/
 
 | Cores do tema light               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor Texto       | ![#000000](https://via.placeholder.com/10/ffffff?text=+) #000000 |
+| Cor Texto       | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 | Cor hover       | ![#8b0000](https://via.placeholder.com/10/8b0000?text=+) #8b0000 |
-| Cor background       | ![#ffffff](https://via.placeholder.com/10/000000?text=+) #ffffff |
+| Cor background       | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |

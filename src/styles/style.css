@@ -89,18 +89,10 @@
 
 @media (max-width: 375px) {
     .sectionContent{
-        color: var(--color-white);
-        text-align: center;
-        font-size: 1.563rem;
         padding: 80px 40px;
     }
     
     .mainTitle {
-        font-size: 2rem;
         padding-bottom: 15px;
-    }
-    
-    .mainSubTitle {
-        font-size: 1rem;
     }
   }

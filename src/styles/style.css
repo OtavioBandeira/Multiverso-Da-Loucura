@@ -126,3 +126,23 @@
         top: 65%;
     }
 }
+
+@media (max-width: 1024px) {
+    .sectionContent{
+        padding: 80px 140px;
+    }
+    
+    .mainTitle {
+        font-size: 3.4rem;
+        padding-bottom: 22px;
+    }
+    
+    .mainSubTitle {
+        font-size: 1.4rem;
+    }
+
+    .characterButton {
+        font-size: 1.1rem;
+        top: 55%;
+    }
+}

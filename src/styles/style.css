@@ -87,7 +87,7 @@
     color: var(--color-white);
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .sectionContent{
         padding: 80px 40px;
     }
@@ -97,7 +97,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
     .sectionContent{
         padding: 80px 70px;
     }
@@ -107,7 +107,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .sectionContent{
         padding: 80px 140px;
     }
@@ -127,7 +127,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .sectionContent{
         padding: 80px 140px;
     }
@@ -144,5 +144,24 @@
     .characterButton {
         font-size: 1.1rem;
         top: 55%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sectionContent{
+        padding: 180px 140px;
+    }
+    
+    .mainTitle {
+        font-size: 4.4rem;
+    }
+    
+    .mainSubTitle {
+        font-size: 1.5rem;
+    }
+
+    .characterButton {
+        font-size: 1.3rem;
+        top: 70%;
     }
 }

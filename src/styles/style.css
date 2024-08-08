@@ -37,6 +37,8 @@
     color: var(--color-white);
     text-align: center;
     padding: 80px 20px;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .mainTitle {

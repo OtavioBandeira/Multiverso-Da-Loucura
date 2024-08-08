@@ -126,8 +126,10 @@
     }
 
     .characterButton {
-        font-size: 1.3rem;
-        top: 70%;
+        font-size: 1.2rem;
+        border-radius: 30px;
+        padding: 10px;
+        top: 65%;
     }
 }
 
@@ -146,7 +148,7 @@
     }
 
     .characterButton {
-        font-size: 1.1rem;
+        font-size: 1rem;
         top: 65%;
     }
 }
@@ -166,7 +168,7 @@
     }
 
     .characterButton {
-        font-size: 1.1rem;
+        font-size: 1rem;
         top: 65%;
     }
 }
@@ -198,6 +200,12 @@
 
     .mainSubTitle {
         font-size: 1.2rem;
+    }
+
+    .characterButton {
+        border-radius: 30px;
+        padding: 10px;
+        top: 65%;
     }
 }
 

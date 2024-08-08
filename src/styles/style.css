@@ -87,67 +87,32 @@
     color: var(--color-white);
 }
 
-@media (min-width: 375px) {
+@media (max-width: 2560px) {
     .sectionContent{
-        padding: 80px 40px;
+        padding: 350px 11px 60px 11px;
     }
     
     .mainTitle {
-        padding-bottom: 15px;
-    }
-}
-
-@media (min-width: 425px) {
-    .sectionContent{
-        padding: 80px 70px;
-    }
-    
-    .mainTitle {
-        padding-bottom: 15px;
-    }
-}
-
-@media (min-width: 768px) {
-    .sectionContent{
-        padding: 80px 140px;
-    }
-    
-    .mainTitle {
-        font-size: 3.4rem;
-        padding-bottom: 12px;
+        font-size: 6.4rem;
     }
     
     .mainSubTitle {
-        font-size: 1.4rem;
+        font-size: 2.5rem;
     }
 
     .characterButton {
-        font-size: 1.1rem;
-        top: 65%;
+        padding: 20px;
+        border-radius: 60px;
+        font-size: 2.5rem;
+        top: 60%;
+    }
+
+    .footer{
+        font-size: 2rem;
     }
 }
 
-@media (min-width: 1024px) {
-    .sectionContent{
-        padding: 80px 140px;
-    }
-    
-    .mainTitle {
-        font-size: 3.4rem;
-        padding-bottom: 22px;
-    }
-    
-    .mainSubTitle {
-        font-size: 1.4rem;
-    }
-
-    .characterButton {
-        font-size: 1.1rem;
-        top: 55%;
-    }
-}
-
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
     .sectionContent{
         padding: 180px 140px;
     }
@@ -165,3 +130,74 @@
         top: 70%;
     }
 }
+
+@media (max-width: 1024px) {
+    .sectionContent{
+        padding: 150px 11px 60px 11px;
+    }
+    
+    .mainTitle {
+        font-size: 3.4rem;
+        padding-bottom: 22px;
+    }
+    
+    .mainSubTitle {
+        font-size: 1.1rem;
+    }
+
+    .characterButton {
+        font-size: 1.1rem;
+        top: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionContent{
+        padding: 140px 11px 60px 11px;
+    }
+    
+    .mainTitle {
+        font-size: 3.4rem;
+        padding-bottom: 12px;
+    }
+    
+    .mainSubTitle {
+        font-size: 1.4rem;
+    }
+
+    .characterButton {
+        font-size: 1.1rem;
+        top: 65%;
+    }
+}
+
+@media (max-width: 425px) {
+    .sectionContent{
+        padding: 170px 11px 60px 11px;
+    }
+    
+    .mainTitle {
+        font-size: 2.1rem;
+        padding-bottom: 15px;
+    }
+
+    .mainSubTitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .sectionContent{
+        padding: 130px 11px 80px 11px;
+    }
+    
+    .mainTitle {
+        font-size: 2.2rem;
+        padding-bottom: 15px;
+    }
+
+    .mainSubTitle {
+        font-size: 1.2rem;
+    }
+}
+

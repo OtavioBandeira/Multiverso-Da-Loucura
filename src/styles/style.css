@@ -37,16 +37,16 @@
     color: var(--color-white);
     text-align: center;
     padding: 80px 20px;
-    position: absolute;
 }
 
 .mainTitle {
     font-size: 2rem;
-    padding-bottom: 7px;
+    margin-bottom: 7px;
 }
 
 .mainSubTitle {
     font-size: 1rem;
+    margin-bottom: 30px;
 }
 
 .characterButton {
@@ -55,10 +55,6 @@
     padding: 10px;
     color: var(--color-white);
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
 }
 
 .characterButton:hover {
@@ -96,7 +92,6 @@
         padding: 20px;
         border-radius: 60px;
         font-size: 2.5rem;
-        top: 60%;
     }
 
     .footer{
@@ -121,7 +116,6 @@
         font-size: 1.2rem;
         border-radius: 30px;
         padding: 10px;
-        top: 65%;
     }
 
     .footer{
@@ -145,7 +139,6 @@
 
     .characterButton {
         font-size: 1rem;
-        top: 65%;
     }
 }
 
@@ -165,7 +158,6 @@
 
     .characterButton {
         font-size: 1rem;
-        top: 65%;
     }
 }
 
@@ -201,7 +193,6 @@
     .characterButton {
         border-radius: 30px;
         padding: 10px;
-        top: 65%;
     }
 }
 

@@ -37,8 +37,6 @@
     color: var(--color-white);
     text-align: center;
     padding: 80px 20px;
-    min-height: 100vh;
-    width: 100%;
 }
 
 .mainTitle {
@@ -127,7 +125,7 @@
 
 @media (max-width: 1024px) {
     .sectionContent{
-        padding: 150px 11px 60px 11px;
+        padding: 380px 11px 60px 11px;
     }
     
     .mainTitle {
@@ -146,7 +144,7 @@
 
 @media (max-width: 768px) {
     .sectionContent{
-        padding: 140px 11px 60px 11px;
+        padding: 310px 11px 60px 11px;
     }
     
     .mainTitle {
@@ -165,7 +163,7 @@
 
 @media (max-width: 425px) {
     .sectionContent{
-        padding: 170px 11px 60px 11px;
+        padding: 350px 11px 60px 11px;
     }
     
     .mainTitle {
@@ -180,7 +178,7 @@
 
 @media (max-width: 375px) {
     .sectionContent{
-        padding: 130px 11px 80px 11px;
+        padding: 240px 11px 80px 11px;
     }
     
     .mainTitle {
@@ -198,3 +196,22 @@
     }
 }
 
+@media (max-width: 320px) {
+    .sectionContent{
+        padding: 110px 11px 80px 11px;
+    }
+    
+    .mainTitle {
+        font-size: 2.2rem;
+        padding-bottom: 15px;
+    }
+
+    .mainSubTitle {
+        font-size: 1.2rem;
+    }
+
+    .characterButton {
+        border-radius: 30px;
+        padding: 10px;
+    }
+}

@@ -131,6 +131,10 @@
         padding: 10px;
         top: 65%;
     }
+
+    .footer{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 1024px) {

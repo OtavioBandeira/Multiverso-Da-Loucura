@@ -35,4 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   prevButton.addEventListener('click', () => showSlide(-1))
   nextButton.addEventListener('click', () => showSlide(1))
+
+  setInterval(() => {
+    showSlide(1)
+  }, 5000)
 })

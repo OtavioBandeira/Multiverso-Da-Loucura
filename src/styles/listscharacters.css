@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid transparent;
   color: #fff;
 }
 
@@ -102,6 +102,7 @@ header {
   }
 
   .nav-links {
+    z-index: 100;
     position: absolute;
     top: 60px;
     right: 0;

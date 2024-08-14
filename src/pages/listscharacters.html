@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="../styles/listscharacters.css">
-  <script src="../js/scripts.js" defer></script>
-  <title>lista de personagens</title>
-</head>
-<body>
-  <main class="container">
-    <header>
-      <div class="div-logo">
-        <a class="logo" href="../../index.html">
-          <img src="../assets/logo.png" alt="logo multiverso da loucura">
-        </a>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/listscharacters.css" />
+    <script src="../js/scripts.js" defer></script>
+    <title>lista de personagens</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <div class="div-logo">
+          <a class="logo" href="../../index.html">
+            <img src="../assets/logo.png" alt="logo multiverso da loucura" />
+          </a>
+        </div>
 
-      <nav class="menu-icon" id="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </nav>
+        <nav class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </nav>
 
-      <ul class="nav-links" id="nav-links">
-        <li><a href="../../index.html">Home</a></li>
-      </ul>
-    </header>
-  </main>
-</body>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="../../index.html">Home</a></li>
+        </ul>
+      </header>
+
+      <section class="carousel">
+        <div class="carousel-container" id="carousel-container">
+          <div class="carousel-slide">
+            <img src="../assets/images/characters/feiticeira-escarlate.webp" alt="feiticeira escarlate" />
+          </div>
+          <div class="carousel-slide">
+            <img src="../assets/images/characters/Doutor-estranho.jpg" alt="Doutor Estranho" />
+          </div>
+          <div class="carousel-slide">
+            <img src="../assets/images/characters/america-chavez.avif" alt="America chavez" />
+          </div>
+          <div class="carousel-slide">
+            <img src="../assets/images/characters/christine-palmer.jpg" alt="Christine Palmer" />
+          </div>
+        </div>
+        <button class="prev" id="prev">&#10094;</button>
+        <button class="next" id="next">&#10095;</button>
+      </section>
+    </main>
+  </body>
 </html>

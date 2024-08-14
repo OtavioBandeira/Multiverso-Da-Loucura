@@ -112,7 +112,7 @@ header {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    display: none;
+    visibility: hidden;
     transform: translateY(-100%);
     opacity: 0;
     transition: transform 0.5s ease, opacity 0.5s ease;
@@ -120,10 +120,14 @@ header {
   }
 
   .nav-links.active {
-    display: flex;
+    visibility: visible;
     transform: translateY(0);
     opacity: 1;
-    animation: slideDown 0.5s ease forwards;
+  }
+
+  .nav-links.inactive {
+    transform: translateY(-100%);
+    opacity: 0;
   }
 
   .nav-links li {

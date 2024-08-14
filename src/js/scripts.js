@@ -1,7 +1,20 @@
-document.getElementById('menu-icon').addEventListener('click', () => {
-  const navLinks = document.getElementById('nav-links')
-  navLinks.classList.toggle('active')
-})
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.getElementById('nav-links');
+
+menuIcon.addEventListener('click', () => {
+  if (navLinks.classList.contains('active')) {
+    navLinks.classList.remove('active');
+    navLinks.classList.add('inactive');
+
+    setTimeout(() => {
+      navLinks.classList.remove('inactive');
+      navLinks.style.visibility = 'hidden';
+    }, 500);
+  } else {
+    navLinks.style.visibility = 'visible';
+    navLinks.classList.add('active');
+  }
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const carouselContainer = document.getElementById('carousel-container')

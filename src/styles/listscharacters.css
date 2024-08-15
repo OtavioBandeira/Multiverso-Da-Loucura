@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .container {
@@ -94,6 +95,44 @@ header {
 
 .next {
   right: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.card {
+  max-width: 350px;
+  padding: 18px;
+  border-radius: 18px;
+  background-color: #11013b;  
+  color: #f3f3f3;
+  margin-bottom: 30px;
+}
+
+.mainName {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.titleName {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.imgCard {
+  border-radius: 18px;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {

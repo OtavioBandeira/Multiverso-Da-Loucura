@@ -96,6 +96,47 @@ header {
   right: 10px;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.card {
+  max-width: 350px;
+  border-radius: 17px;
+  color: #fff;
+  background-color: #14253d;
+  width: 100%;
+  padding: 18px;
+}
+
+.mainName {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.subName {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.titleName {
+  margin: 18px 0px;
+}
+
+.description {
+  margin: 18px 0px;
+}
+
+.cards .card img {
+  width: 100%;
+  border-radius: 17px;
+}
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: flex;

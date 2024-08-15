@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #333;
+  background-color: hsl(217, 54%, 11%);
 }
 
 header {
@@ -106,7 +106,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: hsl(216, 50%, 16%);
     flex-direction: column;
     width: 100%;
     height: 100vh;

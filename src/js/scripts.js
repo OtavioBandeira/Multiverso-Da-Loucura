@@ -1,7 +1,7 @@
 const menuIcon = document.getElementById('menu-icon');
 const navLinks = document.getElementById('nav-links');
 
-menuIcon.addEventListener('click', () => {
+export const menuLinks = menuIcon.addEventListener('click', () => {
   if (navLinks.classList.contains('active')) {
     navLinks.classList.remove('active');
     navLinks.classList.add('inactive');
@@ -16,7 +16,7 @@ menuIcon.addEventListener('click', () => {
   }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
+export const carousel = document.addEventListener('DOMContentLoaded', () => {
   const carouselContainer = document.getElementById('carousel-container')
   const slides = document.querySelectorAll('.carousel-slide')
   const prevButton = document.getElementById('prev')

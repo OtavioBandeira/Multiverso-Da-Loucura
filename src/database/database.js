@@ -146,5 +146,5 @@ export const database = [
     
     characterImages: [],
     actorImages: [],
-  },
+  }
 ];

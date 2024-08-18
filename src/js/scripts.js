@@ -1,9 +1,22 @@
-document.getElementById('menu-icon').addEventListener('click', () => {
-  const navLinks = document.getElementById('nav-links')
-  navLinks.classList.toggle('active')
-})
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.getElementById('nav-links');
 
-document.addEventListener('DOMContentLoaded', () => {
+export const menuLinks = menuIcon.addEventListener('click', () => {
+  if (navLinks.classList.contains('active')) {
+    navLinks.classList.remove('active');
+    navLinks.classList.add('inactive');
+
+    setTimeout(() => {
+      navLinks.classList.remove('inactive');
+      navLinks.style.visibility = 'hidden';
+    }, 500);
+  } else {
+    navLinks.style.visibility = 'visible';
+    navLinks.classList.add('active');
+  }
+});
+
+export const carousel = document.addEventListener('DOMContentLoaded', () => {
   const carouselContainer = document.getElementById('carousel-container')
   const slides = document.querySelectorAll('.carousel-slide')
   const prevButton = document.getElementById('prev')
@@ -22,4 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   prevButton.addEventListener('click', () => showSlide(-1))
   nextButton.addEventListener('click', () => showSlide(1))
+
+  setInterval(() => {
+    showSlide(1)
+  }, 8000)
 })

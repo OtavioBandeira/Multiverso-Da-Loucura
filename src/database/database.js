@@ -31,9 +31,9 @@ export const database = [
   },
   {
     characterBanner: "",
-    characterName: "doutor-estranho",
+    characterName: "stephen-strange",
     actorName: "benedict-cumberbatch",
-    subtitles:"",
+    subtitles:"Doutor Estranho",
     
     characterDescription: `Stephen Vincent Strange, é um poderoso feiticeiro e mestre das artes místicas. Anteriormente um brilhante, mas arrogante neurocirurgião, Strange sofreu um acidente de carro, fazendo com que suas mãos fossem permanentemente danificadas. Quando a medicina ocidental falhou com ele, Stephen embarcou em uma jornada que o levou ate Kamar-Taj, onde descobriu a magia.`,
 
@@ -46,7 +46,7 @@ export const database = [
     characterBanner: "",
     characterName: "christine-palmer",
     actorName: "rachel-mcadams",
-    subtitles:"",
+    subtitles:"Enfermeira",
     
     characterDescription: `Christine palmer, enfermeira e ex-namorada de Stephen Strange, se separaram após o acidente de Stephen, pois o mesmo se torna cada vez mais distante com o propósito de buscar uma cura para as suas mãos.`,
 
@@ -59,7 +59,7 @@ export const database = [
     characterBanner: "",
     characterName: "america-chavez",
     actorName: "xochitl-gomez",
-    subtitles:"",
+    subtitles:"Miss America",
     
     characterDescription: `Nascida no planeta Fuertona, filha de Amalia e Elena, a vida de America Chavez sempre foi repleta de mulheres inspiradoras. A jovem só não imaginava que ela mesma se tornaria uma, tanto nos quadrinhos quanto nos cinemas! Com a capacidade de criar portais interdimensionais, America Chavez é, literalmente, a “chave” do Multiverso para Stephen Strange em Doutor Estranho no Multiverso da Loucura.`,
 
@@ -72,7 +72,7 @@ export const database = [
     characterBanner: "",
     characterName: "wong",
     actorName: "benedict-wong",
-    subtitles:"",
+    subtitles:"Mago",
     
     characterDescription: `Wong é o fiel amigo de Stephen Strange, anteriormente professor e guia no aprendizado da magia, Wong se torna uma figura central na vida de Estranho, pois ajuda o mesmo a defender o mundo contra as forças malignas de tentarem invadir a dimensão do planeta terra, ajudou os vingadores a derrotar Thanos e seu exercito, Por um período curto de tempo, também se tornou o mago supremo no lugar de Stephen.`,
 
@@ -85,7 +85,7 @@ export const database = [
     characterBanner: "",
     characterName: "barão-mordo",
     actorName: "chiwetel-ejifor",
-    subtitles:"",
+    subtitles:"Mago",
     
     characterDescription: `Barão Mordo é um dos professores de Stephen em Kamar-Taj, porém questiona seu papel como mago após descobrir o segredo de sua mestra, a Anciã. A versão de Mordo apresentadod em Multiverso da Loucura, é de outra terra, lá ele se torno o mago supremo e membro dos illuminati ao lado de outros grandes heróis.`,
 
@@ -98,7 +98,7 @@ export const database = [
     characterBanner: "",
     characterName: "charles-xavier",
     actorName: "patrick-stewart",
-    subtitles:"",
+    subtitles:"Professor X",
     
     characterDescription: `Professor Xavier, telepata e líder dos X-men, utiliza sua poderosa mente para ler, controlar e manipular os pensamentos de outras pessoas, em Multiverso da Loucura, é um membro dos illuminati.`,
 
@@ -111,7 +111,7 @@ export const database = [
     characterBanner: "",
     characterName: "peggy-carter",
     actorName: "hayley-atwell",
-    subtitles:"",
+    subtitles:"Capitã Carter",
     
     characterDescription: `Peggy Carter, também conhecida como Capitã Carter no Multiveso da Loucura, membro dos ilumunatti. No universo 838, Carter recebe o soro do super soldado no lugar de Steve Rogers, se tornando uma heroína com força e agilidade sobre-humanas.`,
 
@@ -124,7 +124,7 @@ export const database = [
     characterBanner: "",
     characterName: "raio-negro",
     actorName: "anson-mount",
-    subtitles:"",
+    subtitles:"Lider dos Inumanos",
     
     characterDescription: `Raio negro, líder dos inumanos e membro dos illuminati, ao submeter seu corpo a uma névoa que altera o DNA dos organismos, ganhou a habilidade de descarregar poderosas rajadas sônicas com o som da sua voz, se tornando assim um dos personagens mais fortes da Marvel.`,
 
@@ -135,9 +135,9 @@ export const database = [
   },
   {
     characterBanner: "",
-    characterName: "capitã-marvel",
+    characterName: "maria-rambeau",
     actorName: "lashana-lynch",
-    subtitles:"",
+    subtitles:"Capitã Marvel",
     
     characterDescription: `Maria Rambeau, membro das forças aéreas dos EUA e melhor amiga de Carol Danvers, no universo 838, Maria adquire poderes de manipulação e absorção de energia, se tornando membro dos illuminati como a Capitã Marvel. `,
 
@@ -150,7 +150,7 @@ export const database = [
     characterBanner: "",
     characterName: "reed-richard",
     actorName: "john-krasinski",
-    subtitles:"",
+    subtitles:"Senhor Fantastico",
     
     characterDescription: `Reed Richard, o senhor fantástico e membro do quarteto fantástico. Após partir em uma nave roubada em direção ao espaço, é exposto a altos niveis de radiação cosmica, a radiação alterou sua estrutura genética, permitindo-lhe esticar e moldar seu corpo á vontade.`,
 

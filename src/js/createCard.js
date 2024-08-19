@@ -18,7 +18,7 @@ export const createCard = (data) => {
 
   const h2Card = document.createElement('h2')
   h2Card.classList.add('titleName')
-  h2Card.textContent = data.actorName.replace('-', ' ')
+  h2Card.textContent = data.subtitles
 
   divCard.append(
     h1Card,

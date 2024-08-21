@@ -13,7 +13,7 @@ export const createCard = (data) => {
 
   const imgCard = document.createElement('img')
   imgCard.classList.add('imgCard')
-  imgCard.src = `../assets/images/characters/${data.characterBanner}.jpg`
+  imgCard.src = data.characterBanner
   imgCard.alt = `personagem ${data.characterName.replace('-', ' ')}`
 
   const h2Card = document.createElement('h2')

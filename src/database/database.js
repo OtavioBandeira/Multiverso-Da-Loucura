@@ -1,6 +1,6 @@
 export const database = [
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/feiticeira-escarlate.jpg",
     characterName: "wanda-maximoff",
     subtitles:"Feiticeira Escarlate",
     actorName: "elizabeth-Olsen",
@@ -29,7 +29,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/doutor-estranho.jpg",
     characterName: "stephen-strange",
     actorName: "benedict-cumberbatch",
     subtitles:"Doutor Estranho",
@@ -41,7 +41,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/christine-palmer.jpg",
     characterName: "christine-palmer",
     actorName: "rachel-mcadams",
     subtitles:"Enfermeira",
@@ -53,7 +53,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/america-chavez.jpg",
     characterName: "america-chavez",
     actorName: "xochitl-gomez",
     subtitles:"Miss America",
@@ -65,7 +65,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/wong.jpg",
     characterName: "wong",
     actorName: "benedict-wong",
     subtitles:"Mago",
@@ -77,7 +77,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/barão-mordo.jpg",
     characterName: "barão-mordo",
     actorName: "chiwetel-ejifor",
     subtitles:"Mago",
@@ -89,7 +89,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/charles-xavier.jpg",
     characterName: "charles-xavier",
     actorName: "patrick-stewart",
     subtitles:"Professor X",
@@ -103,7 +103,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/peggy-carter.jpg",
     characterName: "peggy-carter",
     actorName: "hayley-atwell",
     subtitles:"Capitã Carter",
@@ -115,7 +115,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/raio-negro.jpg",
     characterName: "raio-negro",
     actorName: "anson-mount",
     subtitles:"Lider dos Inumanos",
@@ -127,7 +127,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/capitã-marvel.jpg",
     characterName: "maria-rambeau",
     actorName: "lashana-lynch",
     subtitles:"Capitã Marvel",
@@ -139,7 +139,7 @@ export const database = [
     actorImages: [],
   },
   {
-    characterBanner: "",
+    characterBanner: "../assets/images/characters/reed-richard.jpg",
     characterName: "reed-richard",
     actorName: "john-krasinski",
     subtitles:"Senhor Fantastico",

@@ -26,19 +26,6 @@ header {
   width: 100px;
 }
 
-.menu-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 4px 0px;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -56,7 +43,6 @@ header {
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0px;
   overflow: hidden;
   background-color: #222;
 }
@@ -121,13 +107,6 @@ header {
   text-align: center;
 }
 
-.titleName {
-  text-align: center;
-  padding: 10px 0px;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
 .imgCard {
   border-radius: 18px;
   height: auto;
@@ -135,9 +114,25 @@ header {
   width: 100%;
 }
 
+.titleName {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0px;
   }
 
   .nav-links {

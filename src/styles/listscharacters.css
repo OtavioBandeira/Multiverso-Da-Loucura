@@ -84,11 +84,12 @@ header {
 }
 
 .cards {
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+  gap: 15px;
 }
 
 .card {
@@ -121,7 +122,17 @@ header {
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 834px) {
+  .carousel {
+    height: 60vh;
+  }  
+
+  .carousel-slide img {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .menu-icon {
     display: flex;
     flex-direction: column;
@@ -167,6 +178,20 @@ header {
 
   .nav-links li {
     margin: 20px 0;
+  }
+
+  .carousel {
+    height: 50vh;
+  } 
+
+  .carousel-slide img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cards {
+   padding: 40px 25px;
   }
 }
 

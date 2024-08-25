@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-color: #030303;
+    color: #fff;
+}
+
+.returnPages {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    padding: 20px 0px 0px 20px;
+}
+
+.returnPages:hover {
+    color: #f31210;
+}
+
+.divTitleName {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titleName {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.backgroundOpac {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imgBackground {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}

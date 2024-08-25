@@ -102,6 +102,7 @@ header {
 }
 
 .mainName {
+  text-transform: capitalize;
   font-size: 1.5rem;
   font-weight: 800;
   padding: 15px 0px;
@@ -110,7 +111,7 @@ header {
 
 .imgCard {
   border-radius: 18px;
-  height: auto;
+  height: 209px;
   object-fit: cover;
   width: 100%;
 }
@@ -122,13 +123,34 @@ header {
   font-weight: 600;
 }
 
-@media screen and (max-width: 834px) {
-  .carousel {
-    height: 60vh;
-  }  
+@media screen and (min-width: 1366px) {
+  header {
+    padding: 5px 20px;
+  }
 
+  .carousel {
+    min-height: 85vh;
+  }
+  
   .carousel-slide img {
-    height: 80%;
+    object-fit: cover;
+    height: auto;
+    object-position: 100% -40px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 300px));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .carousel {
+    height: 70vh;
+  }
+  
+  .carousel-slide img {
+    height: auto;
+    object-position: 100% -60px;
   }
 }
 
@@ -179,19 +201,11 @@ header {
   .nav-links li {
     margin: 20px 0;
   }
-
-  .carousel {
-    height: 50vh;
-  } 
-
-  .carousel-slide img {
-    height: 100%;
-  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   .cards {
-   padding: 40px 25px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 290px));
   }
 }
 

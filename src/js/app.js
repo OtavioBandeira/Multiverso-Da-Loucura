@@ -11,7 +11,7 @@ database.forEach(data => {
     subtitles,
     characterBanner
   }
-
+  
   addImageToCarousel(characterData)
   createCard(characterData)
 })

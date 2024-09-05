@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(135deg, #1C0707, #240809, #330C0B);
+    color: #d4d4d4;
+}
+
 header {
     position: relative;
     height: 90vh;

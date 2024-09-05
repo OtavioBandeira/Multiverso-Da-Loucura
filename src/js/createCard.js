@@ -6,6 +6,7 @@ export const createCard = (data) => {
 
   const divCard = document.createElement('div')
   divCard.classList.add('card')
+  divCard.classList.add(`${data.characterName}`)
 
   const h1Card = document.createElement('h1')
   h1Card.classList.add('mainName')

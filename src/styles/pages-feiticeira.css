@@ -51,3 +51,56 @@ header {
     height: 90vh;
     object-fit: cover;
 }
+
+.subTitle {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.div_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img {
+    margin: 15px 0px;
+}
+
+.div_img img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.div_paragraph {
+    margin: 15px 0px;
+}
+
+.paragraph_content {
+    width: 100%;
+    max-width: 250px;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1366px) {
+    .div_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .div_img img {
+        object-fit: cover;
+        border-radius: 50% 15px 50% 15px;
+        width: 200px;
+    }
+
+    .paragraph_content {
+        width: 100%;
+        max-width: 650px;
+        font-size: 1.2rem;
+    }
+}

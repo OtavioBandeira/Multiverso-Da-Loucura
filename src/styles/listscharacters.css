@@ -63,7 +63,8 @@ header {
   object-fit: cover;
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -131,7 +132,7 @@ header {
   .carousel {
     min-height: 85vh;
   }
-  
+
   .carousel-slide img {
     object-fit: cover;
     height: auto;
@@ -147,7 +148,7 @@ header {
   .carousel {
     height: 70vh;
   }
-  
+
   .carousel-slide img {
     height: auto;
     object-position: 100% -60px;
@@ -221,11 +222,21 @@ header {
 }
 
 .wanda-maximoff {
-  background: linear-gradient(135deg, #330C0B, #240809, #1C0707);
+  background: linear-gradient(135deg, #330c0b, #240809, #1c0707);
   color: #d4d4d4;
 }
 
 .america-chavez {
-  background: linear-gradient(135deg, #0C0E14, #151F2B, #140105);
+  background: linear-gradient(135deg, #0c0e14, #151f2b, #140105);
+  color: #d4d4d4;
+}
+
+.christine-palmer {
+  background: linear-gradient(135deg, #160c14, #030b29, #070206);
+  color: #d4d4d4;
+}
+
+.wong {
+  background: linear-gradient(135deg, #30073b, #2b032f, #54083d);
   color: #d4d4d4;
 }

@@ -221,6 +221,11 @@ header {
 }
 
 .wanda-maximoff {
-  background: linear-gradient(135deg, #1C0707, #240809, #330C0B);
+  background: linear-gradient(135deg, #330C0B, #240809, #1C0707);
+  color: #d4d4d4;
+}
+
+.america-chavez {
+  background: linear-gradient(135deg, #0C0E14, #151F2B, #140105);
   color: #d4d4d4;
 }

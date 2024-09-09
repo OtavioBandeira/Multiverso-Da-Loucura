@@ -67,8 +67,6 @@ export const database = [
     subtitles: "Professor X",
 
     characterDescription: `Professor Xavier, telepata e líder dos X-men, utiliza sua poderosa mente para ler, controlar e manipular os pensamentos de outras pessoas, em Multiverso da Loucura, é um membro dos illuminati.`,
-
-    characterDescription: `Professor Xavier, telepata e líder dos X-men, utiliza sua poderosa mente para ler, controlar e manipular os pensamentos de outras pessoas, em Multiverso da Loucura, é um membro dos illuminati.`,
     actorDescription: `Sir Patrick Stewart começou a carreira de ator no teatro, fazendo parte da Royal Shakespeare Company. No final dos anos 60, o ator fez sua estreia na televisão, com seriados e telefilmes. Seu primeiro papel no cinema foi no filme Hennessy (1975). Outro papel de destaque para o ator é o Professor Xavier, na série de filmes dos X-Men. Além de atuar, Stewart também emprestou sua voz para diversos filmes de animação, como Nausicaa: A Princesa do Vale dos Ventos (1984), O Príncipe do Egito (1998) e A Era do Gelo 4 (2012)`,
   },
   {

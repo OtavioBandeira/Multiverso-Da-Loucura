@@ -226,6 +226,11 @@ header {
   color: #d4d4d4;
 }
 
+.stephen-strange {
+  background: linear-gradient(135deg, #270E11, #161F28, #270E11);
+  color: #d4d4d4;
+}
+
 .america-chavez {
   background: linear-gradient(135deg, #0c0e14, #151f2b, #140105);
   color: #d4d4d4;

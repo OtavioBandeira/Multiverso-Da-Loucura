@@ -76,6 +76,8 @@ header {
 .div_img img {
   object-fit: cover;
   border-radius: 15px;
+  width: 220px;
+  height: 258px;
 }
 
 .div_paragraph {

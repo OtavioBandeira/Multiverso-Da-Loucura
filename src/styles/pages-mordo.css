@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #25190B, #141107, #0E0D05);
+  background: linear-gradient(135deg, #25190b, #141107, #0e0d05);
   color: #d4d4d4;
 }
 
@@ -62,11 +62,16 @@ header {
   margin: 15px 0px;
 }
 
-.div_items {
+.div_items > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.div_items > .div_paragraph_two {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .div_img {
@@ -97,6 +102,16 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .div_items > .div_paragraph_two {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div_items > .div_paragraph_two > .div_img img {
+    object-fit: cover;
+    border-radius: 15px 50% 15px 50%;
   }
 
   .div_img img {
